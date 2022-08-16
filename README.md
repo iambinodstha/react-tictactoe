@@ -9,7 +9,7 @@ This is a Tic Tac Toe Game build using React JS and TypeScript. This Game only s
 3. Difficulty Mode (Vs Computer)
 
 ## Application Live Demo
-[Demo](https://tictactoe.vercel.app/)
+[Demo](https://tictactoe-ttt.vercel.app/)
 
 ## How to install
 1. clone this react project by running below command in git terminal:
