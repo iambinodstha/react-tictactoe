@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.2 130.2">
+    <line class="path line" fill="none" stroke="#D06079" stroke-width="10" stroke-linecap="round" stroke-miterlimit="10"
+        x1="20.4" y1="24.9" x2="109.8" y2="105.3">
+        <animate attributeName="x2" from="20.4" to="109.8" dur="0.25s" />
+        <animate attributeName="y2" from="24.9" to="105.3" dur="0.25s" />
+    </line>
+
+    <line style="visibility: hidden" class="path line" fill="none" stroke="#D06079" stroke-width="10"
+        stroke-linecap="round" stroke-miterlimit="10" x1="110.2" y1="24.9" x2="20.4" y2="104.8">
+        <animate fill="freeze" attributeName="x2" from="110.2" to="20.4" begin="0.25s" dur="0.25s" />
+        <animate fill="freeze" attributeName="y2" from="24.9" to="104.8" begin="0.25s" dur="0.25s" />
+        <set attributeName="visibility" attributeType="CSS" to="visible" begin="0.25s" dur="0.25s" fill="freeze" />
+    </line>
+</svg>
